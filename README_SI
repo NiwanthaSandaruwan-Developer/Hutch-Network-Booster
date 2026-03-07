@@ -1,0 +1,91 @@
+# ⚡ Hutch Turbo Booster
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/Built%20With-Electron-47848F?style=for-the-badge&logo=electron" />
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge" />
+</p>
+
+<p align="center">
+  Hutch නෙට්වර්ක් එක වේගවත්ව හා ජීවීව තබා ගන්නා Electron Desktop App එකක්. ඔබගේ ක්‍රියාකාරී Network Adapter එක ස්වයංක්‍රීයව හඳුනාගෙන, Background එකේ PowerShell Script එකක් ධාවනය කර, Real-Time Download/Upload වේගය Live Dashboard එකක දක්වයි.
+</p>
+
+---
+
+## 🖥️ මෙය කරන්නේ කුමක්ද?
+
+සමහර Hutch සම්බන්ධතා **idle** වූ විට හෝ **traffic අඩු** වූ විට ජාලය **throttle** වී වේගය අඩු වෙයි. මෙම App එක:
+
+- 🔁 **hutch.lk**, **cloudflare.com** සහ **google.com** වෙත කුඩා background requests යවයි
+- 📡 ජාලය **සජීවීව** (active) තබා ගනී — throttle වීම වළකයි
+- 📊 ඔබගේ **Real-Time Download / Upload** වේගය graph එකක් ලෙස පෙන්වයි
+
+---
+
+## ✨ විශේෂාංග
+
+| විශේෂාංගය | විස්තරය |
+|---|---|
+| 🔍 Auto Adapter Detection | ක්‍රියාකාරීම Network Adapter එක ස්වයංක්‍රීයව හඳුනා ගනී |
+| ⚡ Turbo Keep-Alive | ජාලය idle නොවී active ලෙස තබා ගනී |
+| 📊 Live Speed Graph | Real-Time Download/Upload Graph |
+| 📋 Activity Log | App එක කරන දේ live ලෙස ලොග් කරයි |
+| 🧮 Session Usage | Session එකේ භාවිත Data ප්‍රමාණය පෙන්වයි |
+| 🎨 Dark UI | නවීන අඳුරු theme interface |
+
+---
+
+## 🚀 භාවිතා කරන ආකාරය
+
+1. App එක විවෘත කරන්න
+2. **"Start Turbo"** බොත්තම ක්ලික් කරන්න
+3. Background එකේ PowerShell Script එක ක්‍රියාත්මක වේ
+4. Live Graph හා Activity Log ලෙස output දිස්වේ
+5. නතර කිරීමට **"Stop Turbo"** ක්ලික් කරන්න
+
+---
+
+## 💻 Install කරන ආකාරය
+
+### Source එකෙන් Run කිරීම
+
+```bash
+# Repository Clone කරන්න
+git clone https://github.com/YOUR_USERNAME/Hutch-Network-Booster.git
+
+# Folder එකට යන්න
+cd Hutch-Network-Booster
+
+# Dependencies Install කරන්න
+npm install
+
+# App එක Start කරන්න
+npm start
+```
+
+### .exe Installer Build කිරීම
+
+```bash
+npm run dist
+```
+
+---
+
+## ⚠️ වැදගත් සටහන
+
+- මෙම App එක **Hutch Sri Lanka** සම්බන්ධතා සඳහා පමණක් නිර්මාණය කර ඇත
+- කිසිදු System Setting වෙනස් නොකරයි
+- Network Restrictions bypass නොකරයි
+
+---
+
+## © බලපත්‍රය
+
+**© 2025 සියලු හිමිකම් ඇවිරිණි.**
+
+මෙම Software එක නොමිලේ පෞද්ගලික භාවිතය සඳහා පමණි.
+Source Code වෙනස් කිරීම, නැවත බෙදා හැරීම හෝ වෙනත් ආකාරයකින් භාවිතා කිරීම **දැඩිලෙස තහනම්** වේ.
+
+---
+
+<p align="center">❤️ ශ්‍රී ලංකාවේ Hutch පරිශීලකයින් සඳහා නිර්මාණය කරන ලදී</p>
