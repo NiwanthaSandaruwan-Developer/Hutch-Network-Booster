@@ -1,4 +1,5 @@
 # ⚡ Hutch Turbo Booster
+| 🇱🇰 [සිංහල උපදෙස් බලන්න](README_SI.md) |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
