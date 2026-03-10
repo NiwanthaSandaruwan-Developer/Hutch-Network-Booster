@@ -1,5 +1,5 @@
 # ⚡ Hutch Turbo Booster
-| 🇱🇰 [සිංහල උපදෙස් බලන්න](README_SI.md) |
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
@@ -18,7 +18,7 @@
 
 | Dashboard Running | Live Speed Monitor |
 |---|---|
-| ![Dashboard](screenshots/screenshot1.png) | ![Live Monitor](screenshots/screenshot2.png) |
+| <img width="100%" height="auto" alt="Dashboard" src="https://github.com/user-attachments/assets/a0a2d5e6-eba1-446a-a463-0b1b652a27d6" /> | <img width="100%" height="auto" alt="Live Monitor" src="https://github.com/user-attachments/assets/eeaf9af8-944e-4411-b39d-1b1615a91161" /> |
 
 ---
 
