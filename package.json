@@ -1,0 +1,50 @@
+{
+  "name": "hutch-network-booster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^40.7.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.hutch.networkbooster",
+    "productName": "Hutch Network Booster",
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ],
+      "icon": "Assets/Windows/Windows_icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Hutch Network Booster"
+    },
+    "asar": true,
+    "asarUnpack": [
+      "Hutch Booster Files/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "src/**/*",
+      "Assets/**/*",
+      "Hutch Booster Files/**/*"
+    ]
+  }
+}
