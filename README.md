@@ -1,4 +1,4 @@
-# ⚡ Hutch Turbo Booster
+# ⚡ Hutch Turbo Booster Desktop Application
 
 
 <p align="center">
